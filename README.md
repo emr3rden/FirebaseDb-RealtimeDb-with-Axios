@@ -1,24 +1,11 @@
-# using-firebasedb-realtimedb-with-axios
+# Using "Firebase Database - Realtime Database" with Axios
 
-## Project setup
+#### In "src/main.js" add your "Firebase Database - Realtime Database Project ID"
 ```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
+axios.defaults.baseURL = 'https://[PROJECT ID].firebaseio.com';
 ```
 
-### Compiles and minifies for production
+#### For other options:
 ```
-npm run build
+https://firebase.google.com/docs
 ```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
